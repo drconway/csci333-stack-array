@@ -17,7 +17,7 @@ void Stack::push(int value) {
   // copy all elements to new stack
   // delete old stack
   // point old stack pointer to new stack
- int* stemp = theStack'
+ int* stemp = theStack;
  if(top >= fullSize) {
    theStack = new int[fullSize * 2];
      for(int i = 0; i < top; i++) {
